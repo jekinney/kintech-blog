@@ -27,7 +27,7 @@
 		</div>
 
 		<script src="{{ asset('js/app.js') }}"></script>
-		<script src="{{ asset('js/materialize.js') }}"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
 		<script>
 			$(function() {
 				$(".button-collapse").sideNav();
