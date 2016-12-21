@@ -2,7 +2,7 @@
 
 namespace App\Blog\Models;
 
-use App\blog\Queries\CategoryQueries;
+use App\Blog\Queries\CategoryQueries;
 use Illuminate\Database\Eloquent\Model;
 
 class Category extends Model
