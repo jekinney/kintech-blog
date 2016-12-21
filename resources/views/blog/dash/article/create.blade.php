@@ -23,7 +23,7 @@
 							<option value="{{ $category->id }}" {{ old('category_id') == $category->id? selected:'' }}>{{ $category->title }}</option>
 						@endforeach
 					</select>
-					<label>Display Order</label>
+					<label>Category</label>
 				</div>
 				
 				<div class="input-field col s2">

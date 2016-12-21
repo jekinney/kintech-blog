@@ -25,7 +25,7 @@
 							<option value="{{ $category->id }}" @if($article->category_id == $category->id) selected @endif>{{ $category->title }}</option>
 						@endforeach
 					</select>
-					<label>Display Order</label>
+					<label>Category</label>
 				</div>
 				
 				<div class="input-field col s2">
