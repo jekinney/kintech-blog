@@ -31,7 +31,11 @@
 		<script>
 			$(function() {
 				$(".button-collapse").sideNav();
-				$('select').material_select();
+			});
+			$(function() {
+				$("select").material_select();
+			});
+			$(function() {
 				$('.datepicker').pickadate({
     				selectMonths: true,
     				selectYears: 2
