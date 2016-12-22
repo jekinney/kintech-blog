@@ -7,17 +7,7 @@
 		<title>Kintech Web Services</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link href="{{ asset('css/materialize.css') }}" rel="stylesheet">
-		<style type="text/css">
-			body {
-    			display: flex;
-    			min-height: 100vh;
-    			flex-direction: column;
-  			}
-  			main {
-    			flex: 1 0 auto;
-  			}
-		</style>
+    <link href="{{ elixir('css/materialize.css') }}" rel="stylesheet">
 	</head>
 	<body>
     <div id="fb-root"></div>
@@ -42,8 +32,8 @@
       		<div class="container">
         		<div class="row">
           			<div class="col l6 s12">
-            			<h5 class="white-text"></h5>
-            			<p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+            			<h5 class="white-text">Kintech Web Services</h5>
+            			<p class="grey-text text-lighten-4"></p>
           			</div>
           			<div class="col l4 offset-l2 s12">
             			<h5 class="white-text">Menu</h5>
@@ -64,7 +54,6 @@
         		</div>
       		</div>
     	</footer>
-		<script src="/js/app.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+		<script src="{{ elixir('/js/all.js') }}"></script>
 	</body>
 </html>

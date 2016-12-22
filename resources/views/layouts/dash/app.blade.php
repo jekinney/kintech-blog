@@ -5,10 +5,9 @@
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<title>Kintech-Dashboard</title>
-
-		<link href="{{ asset('css/materialize.css') }}" rel="stylesheet">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link href="{{ elixir('css/materialize.css') }}" rel="stylesheet">
 	</head>
 	<body>
 		<div id="app">
@@ -26,8 +25,7 @@
 			</main>
 		</div>
 
-		<script src="/js/app.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+		<script src="{{ elixir('/js/all.js') }}"></script>
 		<script>
 			$(function() {
 				$(".button-collapse").sideNav();

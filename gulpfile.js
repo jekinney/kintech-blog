@@ -1,5 +1,6 @@
 const elixir = require('laravel-elixir');
 
+require('laravel-elixir-materialize-css');
 require('laravel-elixir-vue-2');
 
 /*
@@ -14,6 +15,7 @@ require('laravel-elixir-vue-2');
  */
 
 elixir((mix) => {
-    mix.sass('app.scss')
-       	.webpack('app.js');
+    //mix.materialize(); //webpack('app.js');
+    mix.scriptsIn('public/js/');
+    mix.version(['css/materialize.css', 'js/all.js']);
 });
